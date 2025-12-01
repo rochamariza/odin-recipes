@@ -5,3 +5,28 @@ body{
     align-items: center;
     gap: 30px;
 }
+.container{
+    background-color: beige;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    border-radius: 20px;
+    margin: 10px;
+}
+h2, p, li{
+    color: rgb(118, 72, 29);
+}
+img{
+    max-width: 50%;
+    border-radius: 20px;
+}
+.header img{
+    float: left;
+    margin-right: 20px;
+}
+.header{
+    float: right;
+    text-align: justify;
+    margin-bottom: 20px;
+}
